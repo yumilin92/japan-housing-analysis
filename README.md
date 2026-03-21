@@ -13,7 +13,7 @@ to undervalued property detection and regional market mapping.
 | [01 — EDA & Price Prediction](01_eda_and_price_prediction.ipynb) | Exploratory analysis + XGBoost price prediction model |
 | [02 — Undervalued Properties](02_undervalued_properties.ipynb) | Finding properties priced below model prediction |
 | [03 — Price Forecast 2025–2027](03_price_forecast.ipynb) | Time series forecasting with Prophet |
-| 04 — Regional Price Map | Interactive map of price trends by prefecture |
+| [04 — Regional Price Map](04_regional_price_map.ipynb) | Interactive map of price trends by prefecture |
 | 05 — COVID Impact Analysis | How the pandemic affected regional property markets |
 
 ---
