@@ -14,7 +14,7 @@ to undervalued property detection and regional market mapping.
 | [02 — Undervalued Properties](02_undervalued_properties.ipynb) | Finding properties priced below model prediction |
 | [03 — Price Forecast 2025–2027](03_price_forecast.ipynb) | Time series forecasting with Prophet |
 | [04 — Regional Price Map](04_regional_price_map.ipynb) | Interactive map of price trends by prefecture |
-| 05 — COVID Impact Analysis | How the pandemic affected regional property markets |
+| [05 — COVID Impact Analysis](05_covid_impact_analysis.ipynb) | How the pandemic affected regional property markets |
 
 ---
 
@@ -24,21 +24,38 @@ to undervalued property detection and regional market mapping.
 japan-housing-analysis/
 │
 ├── data/
-│   ├── All_prefectures_buildings_with_migration.csv  # raw data (not uploaded, see below)
-│   └── df_clean.csv                                  # cleaned dataset (1.3M rows)
+│   ├── df_clean.csv                      # cleaned dataset (1.3M rows)
+│   ├── undervalued_properties.csv        # 428K undervalued transactions
+│   ├── price_forecast_2025_2027.csv      # regional price forecasts
+│   ├── prefecture_stats.csv              # stats for all 47 prefectures
+│   ├── covid_impact_summary.csv          # COVID period analysis
+│   └── japan_prefectures.geojson         # prefecture boundaries
 │
-├── visuals/                    # all generated charts
+├── visuals/
 │   ├── price_distribution.png
 │   ├── price_trend.png
 │   ├── price_by_prefecture.png
 │   ├── price_vs_area.png
-│   └── feature_importance.png
+│   ├── feature_importance.png
+│   ├── undervalued_by_prefecture.png
+│   ├── undervalued_by_year.png
+│   ├── historical_trend.png
+│   ├── price_forecast.png
+│   ├── regional_forecast.png
+│   ├── japan_price_map.html              # interactive map
+│   ├── covid_price_changes.png
+│   ├── covid_regional_impact.png
+│   └── covid_recovery.png
 │
 ├── models/
-│   ├── xgb_housing_model.pkl   # trained XGBoost model
-│   └── features.pkl            # feature list
+│   ├── xgb_housing_model.pkl             # trained XGBoost model
+│   └── features.pkl                      # feature list
 │
 ├── 01_eda_and_price_prediction.ipynb
+├── 02_undervalued_properties.ipynb
+├── 03_price_forecast.ipynb
+├── 04_regional_price_map.ipynb
+├── 05_covid_impact_analysis.ipynb
 └── README.md
 ```
 
