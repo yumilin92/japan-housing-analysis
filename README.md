@@ -139,6 +139,7 @@ jupyter notebook
 
 ## 👤 Author
 
-**Yulia Vovk**  
+**Yulia Vovk** 
 Economics background + Data Science  
 📍 Tokyo, Japan  
+🔗 [Kaggle](https://kaggle.com/yuliavovk) | [GitHub](https://github.com/yumilin92)
