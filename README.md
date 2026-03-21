@@ -103,7 +103,10 @@ japan-housing-analysis/
 - **matplotlib / seaborn** — visualization
 - **scikit-learn** — Linear Regression, Random Forest, model evaluation
 - **XGBoost** — gradient boosting model
+- **Prophet** — time series forecasting
+- **Folium** — interactive geographic maps
 - **joblib** — model serialization
+- **requests** — GeoJSON data fetching
 
 ---
 
